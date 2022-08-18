@@ -16,14 +16,6 @@ public class FelineTest {
     @Mock
     private Animal animal;
 
-    @Parameterized.Parameters
-    public static Object[][] feline() {
-        return new Object[][]{
-                {new Feline(3)},
-                {new Feline(1000000)},
-                {new Feline(10)}
-        };
-    }
 
     @Test
     public void felineGetKittensDefaultNumberTest() {
