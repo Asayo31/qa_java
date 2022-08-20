@@ -15,7 +15,7 @@ import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
-@RunWith(Parameterized.class)
+@RunWith(Parameterized.class) //вот тут изменения
 public class LionTest {
     private final String sex;
 
