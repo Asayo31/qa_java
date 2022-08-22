@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50b66a57-5565-4449-b1ef-27d9cfb18c63" name="Changes" comment="Sprint_6 rewritten tests after full reset">
+    <list default="true" id="50b66a57-5565-4449-b1ef-27d9cfb18c63" name="Changes" comment="Sprint_6 LionTests splited to ordinary and parameterized, jacoco html edited">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_13.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -165,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661105089355</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Sprint_6 LionTests splited to ordinary and parameterized, jacoco html edited">
+      <created>1661179995626</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661179995626</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,6 +202,7 @@
     <MESSAGE value="Sprint_6 first commit session" />
     <MESSAGE value="Sprint_6 second commit session" />
     <MESSAGE value="Sprint_6 rewritten tests after full reset" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sprint_6 rewritten tests after full reset" />
+    <MESSAGE value="Sprint_6 LionTests splited to ordinary and parameterized, jacoco html edited" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sprint_6 LionTests splited to ordinary and parameterized, jacoco html edited" />
   </component>
 </project>
