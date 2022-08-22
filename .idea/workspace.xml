@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50b66a57-5565-4449-b1ef-27d9cfb18c63" name="Changes" comment="Sprint_6 second commit session">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Lion.java" afterDir="false" />
+    <list default="true" id="50b66a57-5565-4449-b1ef-27d9cfb18c63" name="Changes" comment="Sprint_6 rewritten tests after full reset">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/qa_java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/qa_java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,21 +63,11 @@
       <command value="mvn verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CatTest.catGetFood">
+  <component name="RunManager" selected="JUnit.All in qa_java">
     <configuration name="All in qa_java" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="qa_java" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CatTest.catGetFood" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="qa_java" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CatTest" />
-      <option name="METHOD_NAME" value="catGetFood" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -86,21 +81,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LionTest.lionGetFood" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LionTestParameterized.testDoesHaveMane" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="qa_java" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LionTest" />
-      <option name="METHOD_NAME" value="lionGetFood" />
+      <option name="MAIN_CLASS_NAME" value="LionTestParameterized" />
+      <option name="METHOD_NAME" value="testDoesHaveMane" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LionTest.lionHasMane" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LionTest.eatMeatReturnsMeat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="qa_java" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LionTest" />
-      <option name="METHOD_NAME" value="lionHasMane" />
+      <option name="METHOD_NAME" value="eatMeatReturnsMeat" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LionTest.testGetFood" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qa_java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LionTest" />
+      <option name="METHOD_NAME" value="testGetFood" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CatTest.catGetFood" />
-        <item itemvalue="JUnit.LionTest.lionGetFood" />
         <item itemvalue="JUnit.All in qa_java" />
-        <item itemvalue="JUnit.LionTest.lionHasMane" />
+        <item itemvalue="JUnit.LionTestParameterized.testDoesHaveMane" />
         <item itemvalue="JUnit.LionTest (1)" />
+        <item itemvalue="JUnit.LionTest.testGetFood" />
+        <item itemvalue="JUnit.LionTest.eatMeatReturnsMeat" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661016339088</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Sprint_6 rewritten tests after full reset">
+      <created>1661105089355</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661105089355</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,6 +194,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Sprint_6 first commit session" />
     <MESSAGE value="Sprint_6 second commit session" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sprint_6 second commit session" />
+    <MESSAGE value="Sprint_6 rewritten tests after full reset" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sprint_6 rewritten tests after full reset" />
   </component>
 </project>
